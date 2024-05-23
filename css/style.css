@@ -1,0 +1,114 @@
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background: #ddd;
+}
+
+#title {
+    color: #eee;
+    text-shadow: 3px 4px 7px rgba(21, 23, 81, 0.8);
+    cursor: default;
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+}
+
+svg {
+    z-index: -1;
+    top: -50px;
+}
+
+.subtitle {
+    font-family: "Righteous", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    background: -webkit-linear-gradient(left, #2F8CA7 40%, #51C22D 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container .inner {
+    border-style:dotted;
+    border-color: #212529;
+    border-width: 0 0 2px 0;
+}
+
+label {
+    color: #212529;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#p1,
+#p2,
+#p3 {
+    transition: .75s;
+}
+
+#p1 {
+    fill: #715df2;
+}
+
+#p2 {
+    fill: #408bfe;
+}
+
+#p3 {
+    fill: #4facf7;
+}
+
+.my-btn {
+    border: none;
+    background-color: #408BFE;
+    color: #eee;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .5s;
+}
+.my-btn:focus-visible {
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+.form-control:focus, .form-select:focus{
+    box-shadow: 0 0 0 .25rem rgba(64,139,254,.3);
+}
+.my-btn:hover {
+    background-color: #206BDE;
+}
+.warning{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+#all-tab,#personal-tab,#work-tab{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 20px;
+    color: #212529;
+}
+#all-tab:hover,#personal-tab:hover,#work-tab:hover{
+    background-color: rgba(64,139,254,.3);
+}
+
+#all-tab.active,#work-tab.active,#personal-tab.active{
+    background-color: #408BFE;
+    color: white;
+}
+
+#bookmarks div{
+    font-family: "PT Sans Caption", sans-serif;
+}
+.th{
+    font-size: 16px;
+    font-weight: 700;
+}
+.td{
+    font-size: 16px;
+    font-weight: 500;
+}
+#tab-0>.row,#tab-1>.row,#tab-2>.row,.table-head{
+    border-bottom: 1px solid #9998;
+}

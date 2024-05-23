@@ -1,0 +1,57 @@
+@media screen and (min-width: 0px) and (max-width: 600px) {
+
+    #title {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        font-size: 15px;
+    }
+
+    label {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .form-control, .form-select, option{
+        font-size: 12px;
+    }
+
+    .my-btn {
+        font-size: 12px;
+    }
+
+    .warning {
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #all-tab,
+    #personal-tab,
+    #work-tab {
+        font-size: 12px;
+        padding: 4px 15px;
+    }
+
+    .th {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .td {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .btn-row{
+        padding: 4px 10px;
+        font-size: 11px;
+    }
+
+    #tab-0>.row,
+    #tab-1>.row,
+    #tab-2>.row,
+    .table-head {
+        border-bottom: 1px solid #9998;
+    }
+}
